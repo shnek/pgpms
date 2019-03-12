@@ -4,15 +4,13 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import "../components/styles.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`main`]} />
 
-    <div style={{
-      display: `grid`,
-      gridAutoColumns: `1fr`
-    }}>
+    <div id="top-grid">
       <div>
         <ul>
           <li>Leczenie depresji</li>
@@ -40,7 +38,7 @@ const IndexPage = () => (
         gridColumnStart: 2
       }}>
       </div>
-      <div style={{
+      <div id="parentGrid" style={{
         display: `grid`,
         gridColumnStart: 2,
         gridRowStart: 2
@@ -78,12 +76,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div style={{
-      display: `grid`,
-      background: `#63ACD5`,
-      gridAutoColumns: `1fr`,
-      maxHeight: `450px`
-    }}>
+    <div id="blue-grid">
       <div style={{
         padding: `50px`,
         maxWidth: `350px`
@@ -104,7 +97,7 @@ const IndexPage = () => (
         39-300 Mielec, ul. Wolności 27c
       </div>
     </div>
-    <iframe width="100%" height="450" frameborder="0" style={{ border: `0` }}
+    <iframe width="100%" height="450" frameborder="0" style={{ border: `0` }} title="gmaps"
       src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJi7ZB42lrPUcRz4cQBhohJuU&key=AIzaSyD1_wJmMo6JRk6vVnxuei4t5i0z3Eejby8" allowfullscreen></iframe>
   </Layout>
 )
