@@ -34,9 +34,12 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
-            Copyright © {new Date().getFullYear()}, {` `}
-            <a href="/">www.malgorzatasynowiec.pl</a>
+          <footer style={{
+            textAlign: `center`,
+            marginBottom: `7px`,
+          }}>
+            Copyright © {new Date().getFullYear()} {` `}
+            www.malgorzatasynowiec.pl
           </footer>
         </div>
       </>

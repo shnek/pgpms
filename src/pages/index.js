@@ -11,68 +11,60 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`main`]} />
 
     <div id="top-grid">
-      <div>
-        <ul>
-          <li>Leczenie depresji</li>
-          <li>Terapia stresu</li>
-          <li>Leczenie lęków</li>
-        </ul>
-      </div>
-      <div style={{
-        gridColumnStart: 2
-      }}>
-        <ul>
-          <li>Leczenie zaburzeń osobowości</li>
-          <li>Leczenie zaburzeń odżywiania</li>
-          <li>Leczenie zaburzeń obsesyjno-kompulsywnych</li>
-        </ul>
-      </div>
-      <div style={{
-        gridRowStart: 2,
-        textAlign: `right`
-      }}>
-        Godziny przyjęć:
-      </div>
-      <div style={{
-        gridRowStart: 2,
-        gridColumnStart: 2
-      }}>
-      </div>
-      <div id="parentGrid" style={{
-        display: `grid`,
-        gridColumnStart: 2,
-        gridRowStart: 2
-      }}>
-        <div style={{
-          textAlign: `right`
-        }}>
+      <div id="bullet-points">
+        <div class="bullet-list">
           <ul>
-            <li>Poniedziałek:</li>
-            <li>Wtorek:</li>
-            <li>Środa:</li>
-            <li>Czwartek:</li>
-            <li>Piątek:</li>
+            <li>Leczenie depresji</li>
+            <li>Terapia stresu</li>
+            <li>Leczenie lęków</li>
           </ul>
         </div>
-        <div style={{
-          gridColumnStart: 2
-        }}>
+        <div class="bullet-list">
           <ul>
-            <li>8:00 - 12:00</li>
-            <li>12:00 - 16:00</li>
-            <li>8:00 - 12:00 </li>
-            <li>14:00 - 18:00</li>
-            <li>8:00 - 12:00</li>
+            <li>Leczenie zaburzeń osobowości</li>
+            <li>Leczenie zaburzeń odżywiania</li>
+            <li>Leczenie zaburzeń obsesyjno-kompulsywnych</li>
           </ul>
         </div>
-
       </div>
-      <div style={{
-        gridColumnStart: 3,
-        gridRowStart: 1,
-        gridRowEnd: 3
+      <div id="main-image" style={{
+        gridRowStart: `1`
       }}>
         <Image />
+      </div>
+      <div>
+        <div style={{
+          textAlign: `center`,
+          margin: `10px`,
+          color: `#63ACD5`
+        }}>
+          Godziny przyjęć:
+      </div>
+        <div>
+        </div>
+        <div id="parentGrid">
+          <div style={{
+            textAlign: `right`,
+          }}>
+            <ul>
+              <li>Poniedziałek:</li>
+              <li>Wtorek:</li>
+              <li>Środa:</li>
+              <li>Czwartek:</li>
+              <li>Piątek:</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>8:00 - 12:00</li>
+              <li>12:00 - 16:00</li>
+              <li>8:00 - 12:00 </li>
+              <li>14:00 - 18:00</li>
+              <li>8:00 - 12:00</li>
+            </ul>
+          </div>
+
+        </div>
       </div>
     </div>
 
@@ -84,14 +76,14 @@ const IndexPage = () => (
         <Image />
       </div>
       <div style={{
-        gridColumnStart: 2
+        margin: `auto`
       }}>
         Skontaktuj się/zarejestruj wizytę:
         <br />
         +48 518 343 230
         <br />
         +48 608 629 612
-        <br />
+        <br /><br />
         Odwiedź gabinet:
         <br />
         39-300 Mielec, ul. Wolności 27c

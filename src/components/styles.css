@@ -1,22 +1,70 @@
 #top-grid {
     display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: #A2A0A0;
+    max-width: 1400px;
+    margin: auto;
+}
+
+footer {
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8F8D8D;
+}
+
+iframe {
+    margin: 0px;
+}
+
+#bullet-points li {
+    margin-bottom: 30px;
+}
+
+#parentGrid ul {
+    list-style-type: none;
 }
 
 #blue-grid {
     display: grid;
     background: #63ACD5;
     grid-auto-columns: 1fr;
-    max-height: 450px;
+    /* max-height: 450px; */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.bullet-list {
+    margin: auto;
+}
+
+#bullet-points {
+    display: grid;
+}
+
+#parentGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#main-image {
+    max-height: 350px;
+    width: 350px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
     #top-grid {
-        grid-template-columns: repeat(1, minmax(250px, 1fr));
+        grid-template-columns: repeat(1, 1fr);
     }
     #blue-grid {
-        grid-template-columns: repeat(1, minmax(250px, 1fr));
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+    #bullet-points {
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
     }
 }
 
@@ -24,10 +72,19 @@
 
 @media only screen and (min-width: 600px) {
     #top-grid {
-        grid-template-columns: repeat(1, minmax(250px, 1fr));
+        grid-template-columns: repeat(1, 1fr);
     }
     #blue-grid {
-        grid-template-columns: repeat(1, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    #bullet-points {
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #bullet-points .bullet-list {
+        margin-left: 50px;
     }
 }
 
@@ -38,7 +95,13 @@
         grid-template-columns: repeat(2, minmax(250px, 1fr));
     }
     #blue-grid {
-        grid-template-columns: repeat(2, minmax(250px, 1fr));
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+    #main-image {
+        grid-column-start: 2;
+    }
+    #bullet-points {
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
     }
 }
 
@@ -46,10 +109,13 @@
 
 @media only screen and (min-width: 992px) {
     #top-grid {
-        grid-template-columns: repeat(3, minmax(250px, 1fr));
+        grid-template-columns: unset
     }
     #blue-grid {
-        grid-template-columns: repeat(2, minmax(250px, 1fr));
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+    #bullet-points {
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
     }
 }
 
@@ -57,9 +123,12 @@
 
 @media only screen and (min-width: 1200px) {
     #top-grid {
-        grid-template-columns: repeat(3, minmax(250px, 1fr));
+        /* grid-template-columns: repeat(2, minmax(250px, 1fr)); */
     }
     #blue-grid {
-        grid-template-columns: repeat(2, minmax(250px, 1fr));
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+    #bullet-points {
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
     }
 }
