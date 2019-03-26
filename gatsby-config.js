@@ -2,9 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Prywatny Gabinet Psychiatryczny`,
     subtitle: `Lek. Med. Małgorzata Synowiec`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Strona Prywatnego Gabinetu Psychiatrycznego Lek. Med. Małgorzata Synowiec.`,
     author: `@shnek`,
   },
+  pathPrefix: '/pgpms',
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

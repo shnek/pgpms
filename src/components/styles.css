@@ -29,11 +29,12 @@ iframe {
     display: grid;
     background: #63ACD5;
     grid-auto-columns: 1fr;
-    /* max-height: 450px; */
+    /* q-height: 450px; */
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 28px;
     line-height: 32px;
+    padding: 25px;
 }
 
 .bullet-list {

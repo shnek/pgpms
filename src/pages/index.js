@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import ProfileImage from "../components/profile"
 import SEO from "../components/seo"
 import "../components/styles.css"
 
@@ -30,7 +30,8 @@ const IndexPage = () => (
       <div id="main-image" style={{
         gridRowStart: `1`
       }}>
-        <Image />
+        <ProfileImage />
+        {/* <Image /> */}
       </div>
       <div>
         <div style={{
@@ -56,11 +57,11 @@ const IndexPage = () => (
           </div>
           <div>
             <ul>
-              <li>8:00 - 12:00</li>
+              <li>&nbsp;&nbsp;8:00 - 12:00</li>
               <li>12:00 - 16:00</li>
-              <li>8:00 - 12:00 </li>
+              <li>&nbsp;&nbsp;8:00 - 12:00 </li>
               <li>14:00 - 18:00</li>
-              <li>8:00 - 12:00</li>
+              <li>&nbsp;&nbsp;8:00 - 12:00</li>
             </ul>
           </div>
 
@@ -71,9 +72,10 @@ const IndexPage = () => (
     <div id="blue-grid">
       <div style={{
         padding: `50px`,
-        maxWidth: `350px`
+        maxWidth: `350px`,
+        margin: `10px`
       }}>
-        <Image />
+        {/* <Image /> */}
       </div>
       <div style={{
         margin: `auto`
