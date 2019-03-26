@@ -2,6 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import Image from "../components/image"
 import ProfileImage from "../components/profile"
 import SEO from "../components/seo"
 import "../components/styles.css"
@@ -30,7 +31,7 @@ const IndexPage = () => (
       <div id="main-image" style={{
         gridRowStart: `1`
       }}>
-        <ProfileImage />
+        {/* <ProfileImage /> */}
         {/* <Image /> */}
       </div>
       <div>
@@ -69,31 +70,36 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div id="blue-grid">
-      <div style={{
-        padding: `50px`,
-        maxWidth: `350px`,
-        margin: `10px`
-      }}>
-        {/* <Image /> */}
-      </div>
-      <div style={{
-        margin: `auto`
-      }}>
-        Skontaktuj się/zarejestruj wizytę:
+    <div style={{
+      background: `#63ACD5`
+    }}>
+      <div id="blue-grid">
+        <div>
+          <div class="imageWrapper">
+            <Image />
+          </div>
+
+        </div>
+        <div style={{
+          margin: `auto`,
+          padding: `20px`
+        }}>
+          Skontaktuj się/zarejestruj wizytę:
         <br />
-        +48 518 343 230
+          <a href="tel:+48519343230">+48 519 343 230</a>
+          <br />
+          <a href="tel:+608629612">+48 608 629 612</a>
+          <br /><br />
+          Odwiedź gabinet:
         <br />
-        +48 608 629 612
-        <br /><br />
-        Odwiedź gabinet:
-        <br />
-        39-300 Mielec, ul. Wolności 27c
+          <a href="https://www.google.com/maps/place/Wolności+27c,+39-300+Mielec,+Poland/">39-300 Mielec, ul. Wolności 27c</a>
+        </div>
       </div>
     </div>
+
     <iframe width="100%" height="450" frameborder="0" style={{ border: `0` }} title="gmaps"
       src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJi7ZB42lrPUcRz4cQBhohJuU&key=AIzaSyD1_wJmMo6JRk6vVnxuei4t5i0z3Eejby8" allowfullscreen></iframe>
-  </Layout>
+  </Layout >
 )
 
 export default IndexPage

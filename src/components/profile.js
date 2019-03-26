@@ -14,19 +14,19 @@ import Img from "gatsby-image"
  */
 
 const ProfileImage = () => (
-    <StaticQuery
-        query={graphql`
+  <StaticQuery
+    query={graphql`
       query {
         placeholderImage: file(relativePath: { eq: "header-removebg.png" }) {
           childImageSharp {
-            fluid(maxWidth: 500) {
+            fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid
             }
           }
         }
       }
     `}
-        render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
-    />
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+  />
 )
 export default ProfileImage
