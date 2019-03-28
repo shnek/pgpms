@@ -1,9 +1,7 @@
 import React from "react"
-//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import ProfileImage from "../components/profile"
 import SEO from "../components/seo"
 import "../components/styles.css"
 
@@ -96,9 +94,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-
-    <iframe width="100%" height="450" frameborder="0" style={{ border: `0` }} title="gmaps"
-      src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJi7ZB42lrPUcRz4cQBhohJuU&key=AIzaSyD1_wJmMo6JRk6vVnxuei4t5i0z3Eejby8" allowfullscreen></iframe>
+    <iframe title="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.2672941851474!2d21.43739051611315!3d50.2869381794532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d6b6a4343ce99%3A0x9e82b4a70f1903f5!2sPrywatny+Gabinet+Psychiatryczny+lek.+med.+Ma%C5%82gorzata+Synowiec!5e0!3m2!1sen!2sus!4v1553784897297" width="100%" height="450" frameborder="0" style={{ border: `0` }} allowfullscreen></iframe>
   </Layout >
 )
 
