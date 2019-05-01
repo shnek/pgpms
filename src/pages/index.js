@@ -9,26 +9,37 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`main`]} />
 
-    <div id="top-grid">
+    <div id="top-grid" style={{
+      fontSize: `25px`
+    }}>
       <div id="bullet-points">
         <div class="bullet-list">
           <ul>
-            <li>Leczenie depresji</li>
-            <li>Terapia stresu</li>
-            <li>Leczenie lęków</li>
+            <li>Leczenie zaburzeń depresyjnych</li>
+            <li>Leczneie zaburzeń lękowych</li>
+            <li>Leczenie chorób psychicznych</li>
+            <li>Leczenie zaburzeń snu</li>
           </ul>
         </div>
         <div class="bullet-list">
           <ul>
-            <li>Leczenie zaburzeń osobowości</li>
             <li>Leczenie zaburzeń odżywiania</li>
-            <li>Leczenie zaburzeń obsesyjno-kompulsywnych</li>
+            <li>Leczenie otępień</li>
+            <li>Leczenie uzależnień</li>
           </ul>
         </div>
       </div>
       <div id="main-image" style={{
-        gridRowStart: `1`
+        gridRowStart: `1`,
+        padding: `10px`,
+        margin: `10px`,
+        fontSize: `20px`
+
       }}>
+        <h2>O Mnie:</h2>
+        <p>
+        Lekarz specjalista psychiatra. Ukończyłam Wydział Lekarski Akademii Medycznej w Warszawie. Wiedzę i doświadczenie zdobywałam w czasie kształcenia specjalizacyjnego w Klinikach Psychiatrii w Krakowie i Lublinie. Odbyłam kształcenie  w zakresie psychoterapii w Klinice Psychoterapii w Krakowie. Swoją wiedzę pogłębiam uczestnicząc w szkoleniach i konferencjach psychiatrycznych. Od 2000 roku prowadzę gabinet psychiatryczny. 
+        </p>
         {/* <ProfileImage /> */}
         {/* <Image /> */}
       </div>
@@ -36,7 +47,7 @@ const IndexPage = () => (
         <div style={{
           textAlign: `center`,
           margin: `10px`,
-          color: `#63ACD5`
+          color: `#243795`
         }}>
           Godziny przyjęć:
       </div>
@@ -56,11 +67,11 @@ const IndexPage = () => (
           </div>
           <div>
             <ul>
-              <li>&nbsp;&nbsp;8:00 - 12:00</li>
-              <li>12:00 - 16:00</li>
-              <li>&nbsp;&nbsp;8:00 - 12:00 </li>
-              <li>14:00 - 18:00</li>
-              <li>&nbsp;&nbsp;8:00 - 12:00</li>
+              <li>13:00 - 18:00</li>
+              <li>&nbsp;&nbsp;8:30 - 13:30</li>
+              <li>&nbsp;&nbsp;8:30 - 12:30 </li>
+              <li>13:00 - 18:00</li>
+              <li>&nbsp;&nbsp;8:30 - 13:30</li>
             </ul>
           </div>
 
@@ -69,7 +80,7 @@ const IndexPage = () => (
     </div>
 
     <div style={{
-      background: `#63ACD5`
+      background: `#243795`
     }}>
       <div id="blue-grid">
         <div>
@@ -82,20 +93,20 @@ const IndexPage = () => (
           margin: `auto`,
           padding: `20px`
         }}>
-          Skontaktuj się/zarejestruj wizytę:
+          Kontakt:
         <br />
-          <a href="tel:+48519343230">+48 519 343 230</a>
+          <a href="tel:+48727763047">+48 727 763 047</a>
           <br />
-          <a href="tel:+608629612">+48 608 629 612</a>
-          <br /><br />
+          <br />
           Odwiedź gabinet:
         <br />
-          <a href="https://www.google.com/maps/place/Wolności+27c,+39-300+Mielec,+Poland/">39-300 Mielec, ul. Wolności 27c</a>
+          <a href="https://www.google.com/maps/place/Chopina+16%2FU1,+39-300+Mielec,+Poland/">39-300 Mielec, ul. Chopina 16 lok. U1</a>
         </div>
       </div>
     </div>
-    <iframe title="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.2672941851474!2d21.43739051611315!3d50.2869381794532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d6b6a4343ce99%3A0x9e82b4a70f1903f5!2sPrywatny+Gabinet+Psychiatryczny+lek.+med.+Ma%C5%82gorzata+Synowiec!5e0!3m2!1sen!2sus!4v1553784897297" width="100%" height="450" frameborder="0" style={{ border: `0` }} allowfullscreen></iframe>
+    <iframe title="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.8461168384206!2d21.441917315882474!3d50.29480030644883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d6b150ac15397%3A0xb510d89b11a68ceb!2sChopina+16%2FU1%2C+39-300+Mielec%2C+Poland!5e0!3m2!1sen!2sus!4v1556718751958!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style={{ border: `0` }} allowfullscreen></iframe>
   </Layout >
 )
 
 export default IndexPage
+ 

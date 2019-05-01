@@ -27,7 +27,7 @@ iframe {
 
 #blue-grid {
     display: grid;
-    background: #63ACD5;
+    background: #243795;
     grid-auto-columns: 1fr;
     /* q-height: 450px; */
     color: white;
