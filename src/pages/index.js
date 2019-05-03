@@ -142,7 +142,7 @@ class HomeIndex extends React.Component {
                                 <ul style={{listStyle:`none`}}>
                                     <li>13:00 - 18:00</li>
                                     <li>&nbsp;&nbsp;8:30 - 13:30</li>
-                                    <li>&nbsp;&nbsp;8:30 - 12:30 </li>
+                                    <li>&nbsp;&nbsp;8:30 - 13:30 </li>
                                     <li>13:00 - 18:00</li>
                                     <li>&nbsp;&nbsp;8:30 - 13:30</li>
                                 </ul>
