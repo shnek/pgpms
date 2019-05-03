@@ -61,14 +61,14 @@ class Gallery extends Component {
                 <article className="6u 12u$(xsmall) work-item" key={i}>
                     <a
                         className="image fit thumb"
-                        href={obj.src}
-                        onClick={(e) => this.openLightbox(i, e)}
+                        
+                        onClick={(e) => console.log("nothing") /*this.openLightbox(i, e)*/}
                     >
                         <img src={obj.thumbnail} />
                     </a>
 
-                    <h3>{obj.caption}</h3>
-                    <p>{obj.description}</p>
+                    {/* <h3>{obj.caption}</h3> */}
+                    {/* <p>{obj.description}</p> */}
                 </article>
             );
         });
@@ -83,7 +83,7 @@ class Gallery extends Component {
         return (
             <div>
                 {this.renderGallery()}
-                <Lightbox
+                {/* <Lightbox
                     currentImage={this.state.currentImage}
                     images={this.props.images}
                     isOpen={this.state.lightboxIsOpen}
@@ -92,7 +92,7 @@ class Gallery extends Component {
                     onClickPrev={this.gotoPrevious}
                     onClickThumbnail={this.gotoImage}
                     onClose={this.closeLightbox}
-                />
+                /> */}
             </div>
         );
     }

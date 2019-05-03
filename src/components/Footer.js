@@ -12,9 +12,9 @@ class Footer extends React.Component {
                         <li><a href="#" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
                     </ul> */}
                     <ul className="copyright">
-                        <li style={{
+                        {/* <li style={{
                             color: `rgba(255,255,255,1)`
-                        }}>&copy; Małgorzata Synowiec</li>
+                        }}>&copy; Małgorzata Synowiec</li> */}
                         {/* <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> */}
                     </ul>
                 </div>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Strata by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    title: "Prywatny Gabinet Psychiatryczny",
+    author: "Jakub and Agnieszka",
+    description: "Lek. Med. Małgorzata Synowiec"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
