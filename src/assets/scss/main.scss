@@ -537,14 +537,14 @@
 		}
 
 		&.avatar {
-			border-radius: 100%;
+			// border-radius: 100%;
 
 			&:before {
 				display: none;
 			}
 
 			img {
-				border-radius: 100%;
+				// border-radius: 100%;
 				width: 100%;
 			}
 		}
@@ -686,7 +686,7 @@
 
 			li {
 				line-height: 1.75em;
-				margin: 1.5em 0 0 0;
+				margin: 0.5em 0 0 0;
 				padding-left: 2.25em;
 				position: relative;
 
@@ -942,8 +942,8 @@
 		}
 
 		.image.avatar {
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 16.25em;
+			// margin: 0 0 (_size(element-margin) * 0.5) 0;
+			width: 11.50em;
 		}
 	}
 
