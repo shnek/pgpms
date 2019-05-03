@@ -1,17 +1,24 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.png'
+import avatar from '../assets/images/avatar2.png'
 
 class Header extends React.Component {
     render() {
         return (
-            <header id="header">
-                <div className="inner">
+            <header id="header" style={{
+                paddingTop: `75px`,
+                paddingBottom: `20px`
+            }}>
+                <div className="inner" style={{textAlign: `center`}}>
                     <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
-                    <h1><strong>I am Strata</strong>, a super simple<br />
-                    responsive site template freebie<br />
-                    crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+                    <h1 style={{
+                        fontSize: `1.27em`
+                    }}><strong>Prywatny Gabinet Psychiatryczny</strong></h1>
+                    <h1 style={{
+                        fontSize: `1.36em`,
+                        color: `rgba(255,255,255,0.65)`
+                        }}>Lek. Med. Małgorzata Synowiec</h1>
                 </div>
                 <Footer />
             </header>

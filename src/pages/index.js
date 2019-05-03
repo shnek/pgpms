@@ -89,16 +89,28 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>O Mnie<br /></h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
+                        <p style={{textAlign: `justify`}}>Lekarz specjalista psychiatra. Ukończyłam Wydział Lekarski Akademii Medycznej w Warszawie. Wiedzę i doświadczenie zdobywałam w czasie kształcenia specjalizacyjnego w Klinikach Psychiatrii w Krakowie i Lublinie. Odbyłam kształcenie  w zakresie psychoterapii w Klinice Psychoterapii w Krakowie. Swoją wiedzę pogłębiam uczestnicząc w szkoleniach i konferencjach psychiatrycznych. Od 2000 roku prowadzę gabinet psychiatryczny. </p>
                     </section>
 
-                    <section id="two">
+                    <section id="oneAndHalf">
+                        <header className="major">
+                            <h2>Zakres usług<br /></h2>
+                        </header>
+                        <ul>
+                            <li>Leczenie zaburzeń depresyjnych</li>
+                            <li>Leczneie zaburzeń lękowych</li>
+                            <li>Leczenie chorób psychicznych</li>
+                            <li>Leczenie zaburzeń snu</li>
+                            <li>Leczenie zaburzeń odżywiania</li>
+                            <li>Leczenie otępień</li>
+                            <li>Leczenie uzależnień</li>
+                        </ul>
+                        
+                    </section>
+
+                    {/* <section id="two">
                         <h2>Recent Work</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
@@ -111,14 +123,16 @@ class HomeIndex extends React.Component {
                         <ul className="actions">
                             <li><a href="#" className="button">Full Portfolio</a></li>
                         </ul>
-                    </section>
+                    </section> */}
 
                     <section id="three">
-                        <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+                        <h2>Kontakt</h2>
+                        <p>Wizyty prosimy umawiać telefonicznie bądź osobiście.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form method="post" action="#">
+                                <iframe title="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.8461168384206!2d21.441917315882474!3d50.29480030644883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d6b150ac15397%3A0xb510d89b11a68ceb!2sChopina+16%2FU1%2C+39-300+Mielec%2C+Poland!5e0!3m2!1sen!2sus!4v1556718751958!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style={{ border: `0` }} allowfullscreen></iframe>
+
+                                {/* <form method="post" action="#">
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -127,23 +141,24 @@ class HomeIndex extends React.Component {
                                 </form>
                                 <ul className="actions">
                                     <li><input type="submit" value="Send Message" /></li>
-                                </ul>
+                                </ul> */}
                             </div>
                             <div className="4u 12u$(small)">
-                                <ul className="labeled-icons">
+                                <ul className="labeled-icons" style={{
+                                    fontSize:`17px`
+                                    }}>
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
+                                        39-300 Mielec<br/>
+                                        ul. Chopina 16 lok. U1
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        +48 727 763 047
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        <a href="#">mgsynowiec@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
