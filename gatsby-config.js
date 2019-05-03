@@ -4,6 +4,7 @@ module.exports = {
     author: "Jakub and Agnieszka",
     description: "Lek. Med. Małgorzata Synowiec"
   },
+  pathPrefix: `/pgpms`,
   plugins: [
     'gatsby-plugin-react-helmet',
     {
