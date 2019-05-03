@@ -15,4 +15,4 @@ deploy:
 before_script:
   - "npm i"
 script:
-  - "gatsby deploy"
+  - "gatsby build --prefix-paths"
