@@ -16,7 +16,7 @@ class Footer extends React.Component {
                                     fontSize:`21px`,
                                     textAlign: `left`,
                                     width: `100%`,
-                                    color: `rgba(255,255,255,0.75)`
+                                    color: `rgba(255,255,255,0.80)`
                                     }}>
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
