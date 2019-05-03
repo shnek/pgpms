@@ -100,9 +100,6 @@ class HomeIndex extends React.Component {
                             <h2>O Mnie<br /></h2>
                         </header>
                         <p style={{textAlign: `justify`}}>Lekarz specjalista psychiatra. Ukończyłam Wydział Lekarski Akademii Medycznej w Warszawie. Wiedzę i doświadczenie zdobywałam w czasie kształcenia specjalizacyjnego w Klinikach Psychiatrii w Krakowie i Lublinie. Odbyłam kształcenie  w zakresie psychoterapii w Klinice Psychoterapii w Krakowie. Swoją wiedzę pogłębiam uczestnicząc w szkoleniach i konferencjach psychiatrycznych. Od 2000 roku prowadzę gabinet psychiatryczny. </p>
-                    </section>
-
-                    <section id="oneAndHalf">
                         <header className="major">
                             <h2>Zakres usług<br /></h2>
                         </header>
@@ -115,6 +112,7 @@ class HomeIndex extends React.Component {
                             <li>Leczenie otępień</li>
                             <li>Leczenie uzależnień</li>
                         </ul>
+                        
                         
                     </section>
 
@@ -136,8 +134,31 @@ class HomeIndex extends React.Component {
                     <section id="three">
                         <h2>Godziny przyjęć</h2>
                         <p></p>
+                        <div style={{
+                            display: `flex`
+                        }}>
+                            <div>
+                                <ul style={{listStyle:`none`}}>
+                                    <li>Poniedziałek:</li>
+                                    <li>Wtorek:</li>
+                                    <li>Środa:</li>
+                                    <li>Czwartek:</li>
+                                    <li>Piątek:</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul style={{listStyle:`none`}}>
+                                    <li>13:00 - 18:00</li>
+                                    <li>&nbsp;&nbsp;8:30 - 13:30</li>
+                                    <li>&nbsp;&nbsp;8:30 - 12:30 </li>
+                                    <li>13:00 - 18:00</li>
+                                    <li>&nbsp;&nbsp;8:30 - 13:30</li>
+                                </ul>
+                            </div>    
+                        </div>
+                        
                         <div className="row">
-                            <div className="8u 12u$(small)">
+                            {/* <div className="8u 12u$(small)"> */}
                                 <iframe title="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.8461168384206!2d21.441917315882474!3d50.29480030644883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d6b150ac15397%3A0xb510d89b11a68ceb!2sChopina+16%2FU1%2C+39-300+Mielec%2C+Poland!5e0!3m2!1sen!2sus!4v1556718751958!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style={{ border: `0` }} allowfullscreen></iframe>
 
                                 {/* <form method="post" action="#">
@@ -150,7 +171,7 @@ class HomeIndex extends React.Component {
                                 <ul className="actions">
                                     <li><input type="submit" value="Send Message" /></li>
                                 </ul> */}
-                            </div>
+                            {/* </div> */}
                             {/* <div className="4u 12u$(small)">
                                 <ul className="labeled-icons" style={{
                                     fontSize:`17px`
