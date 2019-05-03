@@ -15,4 +15,4 @@ deploy:
 before_script:
   - "npm i"
 script:
-  - "npm run deploy"
+  - "gatsby build"
