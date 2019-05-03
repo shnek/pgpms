@@ -134,8 +134,8 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="three">
-                        <h2>Kontakt</h2>
-                        <p>Wizyty prosimy umawiać telefonicznie bądź osobiście.</p>
+                        <h2>Godziny przyjęć</h2>
+                        <p></p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <iframe title="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.8461168384206!2d21.441917315882474!3d50.29480030644883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d6b150ac15397%3A0xb510d89b11a68ceb!2sChopina+16%2FU1%2C+39-300+Mielec%2C+Poland!5e0!3m2!1sen!2sus!4v1556718751958!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style={{ border: `0` }} allowfullscreen></iframe>
@@ -151,7 +151,7 @@ class HomeIndex extends React.Component {
                                     <li><input type="submit" value="Send Message" /></li>
                                 </ul> */}
                             </div>
-                            <div className="4u 12u$(small)">
+                            {/* <div className="4u 12u$(small)">
                                 <ul className="labeled-icons" style={{
                                     fontSize:`17px`
                                     }}>
@@ -169,7 +169,7 @@ class HomeIndex extends React.Component {
                                         <a href="#">mgsynowiec@gmail.com</a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </section>
 
