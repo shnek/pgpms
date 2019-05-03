@@ -13,8 +13,8 @@ module.exports = {
         name: 'Prywatny Gabinet Psychiatryczny Lek Med Malgorzata Synowiec',
         short_name: 'PGPMS',
         start_url: '/pgpms',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#28388f',
+        theme_color: '#28388f',
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },

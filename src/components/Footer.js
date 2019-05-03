@@ -15,7 +15,8 @@ class Footer extends React.Component {
                                 <ul className="labeled-icons" style={{
                                     fontSize:`21px`,
                                     textAlign: `left`,
-                                    width: `100%`
+                                    width: `100%`,
+                                    color: `rgba(255,255,255,0.75)`
                                     }}>
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
