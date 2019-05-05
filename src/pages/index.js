@@ -97,7 +97,7 @@ class HomeIndex extends React.Component {
                         </header>
                         <ul>
                             <li>Leczenie zaburzeń depresyjnych</li>
-                            <li>Leczneie zaburzeń lękowych</li>
+                            <li>Leczenie zaburzeń lękowych</li>
                             <li>Leczenie chorób psychicznych</li>
                             <li>Leczenie zaburzeń snu</li>
                             <li>Leczenie zaburzeń odżywiania</li>
