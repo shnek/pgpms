@@ -27,6 +27,10 @@ class Footer extends React.Component {
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
                                         +48 727 763 047
                                     </li>
+                                    <li>
+                                        <h3 className="icon fa-phone"><span className="label">Phone</span></h3>
+                                        +17 749 13 00
+                                    </li>
                                     {/* <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
                                         <a href="#">lek.med.malgorzata.synowiec@gmail.com</a>
