@@ -7,11 +7,11 @@ import Gallery from '../components/Gallery'
 
 import avatar from '../assets/images/avatar.png'
 
-import thumb01 from '../assets/images/thumbs/img1.png'
-import thumb02 from '../assets/images/thumbs/img2.png'
+import thumb01 from '../assets/images/thumbs/img001.jpg'
+import thumb02 from '../assets/images/thumbs/img002.jpg'
 
-import full01 from '../assets/images/thumbs/img1.png'
-import full02 from '../assets/images/thumbs/img2.png'
+import full01 from '../assets/images/thumbs/img001.jpg'
+import full02 from '../assets/images/thumbs/img002.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
