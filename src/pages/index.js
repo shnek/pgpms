@@ -89,7 +89,11 @@ class HomeIndex extends React.Component {
                             maxWidth: `370px`
                         }}/></a>   
                     </div>
-
+                        <header className="major">
+                            <h2>Aktualności<br /></h2>
+                        </header>
+                        <p style={{textAlign: `justify`}}>Przepraszamy za tymczaoswe problemy z numerem telefonu 727 763 047. Bardzo prosimy o kontakt pod numerem +48 519 343 230.</p>
+                        
                         <header className="major">
                             <h2>O Mnie<br /></h2>
                         </header>
@@ -177,7 +181,7 @@ class HomeIndex extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        +48 727 763 047
+                                        +48 519 343 230
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
