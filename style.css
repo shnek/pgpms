@@ -1,0 +1,277 @@
+/* Psychiatrist Office Website Styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8fafc;
+  color: #181c1f;
+  line-height: 1.7;
+  font-size: 1.12rem;
+}
+* {
+  font-family: inherit;
+}
+
+
+:root {
+  --accent: #2274a5;
+  --soft-blue: #e3f6fc;
+  --card-bg: #fff;
+  --divider: #e5e7eb;
+}
+
+.logo-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3.2rem 0 2.2rem 0;
+}
+.logo-large {
+  height: 120px;
+  max-width: 360px;
+  border-radius: 20px;
+  box-shadow: 0 4px 32px rgba(34,116,165,0.10);
+  background: #fff;
+  padding: 0.5rem 2rem;
+}
+
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.3rem;
+  margin: 2.2rem 0 0 0;
+  flex-wrap: wrap;
+}
+.main-nav a {
+  background: #e3f6fc;
+  color: #2274a5;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.09rem;
+  letter-spacing: 0.01em;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+  box-shadow: 0 2px 8px rgba(34,116,165,0.06);
+  border: none;
+  outline: none;
+  margin-bottom: 0.6rem;
+}
+.main-nav a:hover, .main-nav a:focus {
+  background: #2274a5;
+  color: #fff;
+  box-shadow: 0 4px 18px rgba(34,116,165,0.13);
+}
+nav a {
+  color: #2274a5;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.08rem;
+  letter-spacing: 0.01em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.18s, color 0.18s;
+}
+nav a:hover, nav a:focus {
+  background: #e3f6fc;
+  color: #32936f;
+}
+.hero {
+  background: none;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0 1rem 0 1rem;
+}
+.hero-overlay {
+  background: none;
+  color: #181c1f;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.01em;
+  color: #181c1f;
+  line-height: 1.23;
+}
+@media (min-width: 600px) {
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  justify-content: center;
+  padding: 2.2rem 0.5rem 1.5rem 0.5rem;
+  background: none;
+}
+.gallery img {
+  width: 360px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 28px rgba(34,116,165,0.09);
+  border: 1.5px solid #e5e7eb;
+  background: #fff;
+  transition: transform 0.28s cubic-bezier(.4,0,.2,1), box-shadow 0.28s cubic-bezier(.4,0,.2,1);
+}
+.gallery img:hover {
+  transform: scale(1.045);
+  box-shadow: 0 8px 38px rgba(34,116,165,0.13);
+}
+
+.section-title, .about-section, .services-section, .hours-section, .location-section {
+  padding: 1.2rem 0.5rem 1rem 0.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+.gallery-section {
+  padding: 1.2rem 0.5rem 1rem 0.5rem;
+  border-radius: 12px;
+}
+.about-section, .services-section, .hours-section, .location-section {
+  max-width: 700px;
+  margin: 2.6rem auto 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: none;
+  padding: 2.7rem 2rem 2.3rem 2rem;
+  text-align: center;
+  border: none;
+  color: #181c1f;
+}
+
+.gallery-section {
+  max-width: 700px;
+  margin: 2.6rem auto 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: none;
+  padding: 2.7rem 2rem 2.3rem 2rem;
+  border: none;
+  color: #181c1f;
+}
+.gallery-section h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.map-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  padding: 0 0.5rem;
+  margin: 1.5rem 0 0.5rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.map-section iframe {
+  width: 100%;
+  max-width: 620px;
+  min-width: 420px;
+  height: 300px;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px rgba(34,116,165,0.11);
+  margin-top: 0.6rem;
+  display: block;
+}
+
+.hours-table {
+  width: 100%;
+  min-width: 260px;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+.hours-table th, .hours-table td {
+  background: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1.08rem;
+  text-align: center;
+  vertical-align: middle;
+  color: #181c1f;
+  border: none;
+  box-shadow: none;
+}
+.hours-table th {
+  color: #181c1f;
+  font-weight: 600;
+  min-width: 120px;
+  text-align: center;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem 0;
+  padding: 0;
+  margin: 1.2rem 0 0.5rem 0;
+  list-style: none;
+  justify-items: start;
+  padding-left: 0;
+}
+@media (min-width: 600px) {
+  .services-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.services-list li {
+  background: #fff;
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem 0.9rem 2.1rem;
+  font-weight: 500;
+  color: #181c1f;
+  box-shadow: none;
+  margin-bottom: 0.3rem;
+  font-size: 1.08rem;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+}
+.services-list li::before {
+  content: '\2713';
+  color: #32936f;
+  font-size: 1.12em;
+  position: absolute;
+  left: 0.9rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  opacity: 0.85;
+}
+
+footer {
+  background: #f8fafc;
+  color: #7a7a7a;
+  text-align: center;
+  padding: 2.2rem 0 2rem 0;
+  margin-top: 3.2rem;
+  font-size: 1.01rem;
+  letter-spacing: 0.01em;
+  border-radius: 0 0 20px 20px;
+  box-shadow: none;
+  border-top: 1px solid var(--divider);
+}
+

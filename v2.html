@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prywatny Gabinet Psychiatryczny Lek. Med. Małgorzata Synowiec</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="logo-center">
+    <img src="assets/logo.png" alt="Logo gabinetu psychiatrycznego" class="logo-large">
+  </div>
+  <section class="hero" id="o-mnie">
+    <div class="hero-overlay">
+      <h1>Prywatny Gabinet Psychiatryczny<br>Lek. Med. Małgorzata Synowiec</h1>
+    </div>
+    
+  </section>
+  <section class="about-section fade-in">
+    <h2>O mnie</h2>
+    <p>Lekarz specjalista psychiatra. Ukończyłam Wydział Lekarski Akademii Medycznej w Warszawie. Wiedzę i doświadczenie zdobywałam w czasie kształcenia specjalizacyjnego w Klinikach Psychiatrii w Krakowie i Lublinie. Odbyłam kształcenie w zakresie psychoterapii w Klinice Psychoterapii w Krakowie. Swoją wiedzę pogłębiam uczestnicząc w szkoleniach i konferencjach psychiatrycznych. Od 2000 roku prowadzę gabinet psychiatryczny.</p>
+  </section>
+  <section class="services-section fade-in" id="uslugi">
+    <h2>Rodzaje usług</h2>
+    <ul class="services-list">
+      <li>Leczenie zaburzeń depresyjnych</li>
+      <li>Leczenie zaburzeń lękowych</li>
+      <li>Leczenie chorób psychicznych</li>
+      <li>Leczenie zaburzeń snu</li>
+      <li>Leczenie zaburzeń odżywiania</li>
+      <li>Leczenie otępień</li>
+      <li>Leczenie uzależnień</li>
+    </ul>
+  </section>
+  <section class="hours-section fade-in" id="godziny">
+    <h2>Godziny otwarcia</h2>
+    <table class="hours-table">
+      <tr><th>Poniedziałek</th><td>13:00 - 18:00</td></tr>
+      <tr><th>Wtorek</th><td>8:30 - 13:30</td></tr>
+      <tr><th>Środa</th><td>8:30 - 13:30</td></tr>
+      <tr><th>Czwartek</th><td>13:00 - 18:00</td></tr>
+      <tr><th>Piątek</th><td>8:30 - 13:30</td></tr>
+    </table>
+  </section>
+  <section class="gallery-section fade-in" id="galeria">
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <img src="assets/entrance.jpg" alt="Wejście do gabinetu" class="fade-in">
+      <img src="assets/lobby.jpg" alt="Poczekalnia" class="fade-in">
+      <img src="assets/desk.jpg" alt="Gabinet" class="fade-in">
+    </div>
+  </section>
+  <section class="location-section fade-in" id="kontakt">
+    <h2>Adres i kontakt</h2>
+    <div class="contact-info">
+    <div class="contact-details">
+        <span class="icon-mobile">📱</span> +48 727 763 047<br>
+        <span class="icon-phone">☎️</span> +17 749 13 00
+    </div>
+      <div class="address">
+        <span class="icon-location">📍</span> Chopina 16/U1, 39-300 Mielec
+      </div>
+      <div class="map-section">
+        <iframe src="https://www.google.com/maps?q=Chopina+16/U1,+39-300+Mielec&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div>&copy; 2025 Prywatny Gabinet Psychiatryczny Lek. Med. Małgorzata Synowiec. Wszelkie prawa zastrzeżone.</div>
+  </footer>
+<script>
+// Apple-style scroll-triggered fade-in
+(function() {
+  var observer = new window.IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.18 });
+  document.querySelectorAll('.fade-in').forEach(function(el) {
+    observer.observe(el);
+  });
+})();
+</script>
+</body>
+</html>
